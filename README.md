@@ -78,11 +78,11 @@ You will also need:
 ## 📁 Project Structure
 
 ```text
-windows10vm/
+win10/
 │
-├── Dockerfile
+├── docker
 ├── README.md
-├── windows.iso
+├
 │
 └── data/
     └── Windows VM storage
@@ -95,14 +95,14 @@ windows10vm/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hopingboyz/windows10vm.git
-cd windows10vm
+git clone https://github.com/missionhacker/win10
+cd win10
 ```
 
 ### 2. Build the Docker Image
 
 ```bash
-docker build -t windows10-vm .
+docker build -t wind10 .
 ```
 
 ### 3. Start the Windows 10 VM
@@ -114,7 +114,7 @@ docker run -it --rm \
   -p 3389:3389 \
   -v windows_data:/data \
   -v windows_iso:/iso \
-  windows10-vm
+  win10
 ```
 
 ---
