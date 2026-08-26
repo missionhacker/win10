@@ -82,7 +82,7 @@ qemu-system-x86_64 \\\n\
   -netdev user,id=net0,hostfwd=tcp::3389-:3389 \\\n\
   -device e1000,netdev=net0 \\\n\
   -display vnc=:0 \\\n\
-  -name "Windows10_VM" &\n\
+  -name "Win10_VM" &\n\
 \n\
 # Start noVNC\n\
 sleep 5\n\
