@@ -102,7 +102,7 @@ cd win10
 ### 2. Build the Docker Image
 
 ```bash
-docker build -t wind10 .
+docker build -t win10 .
 ```
 
 ### 3. Start the Windows 10 VM
