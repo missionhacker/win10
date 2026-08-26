@@ -114,7 +114,7 @@ docker run -it --rm \
   -p 3389:3389 \
   -v windows_data:/data \
   -v windows_iso:/iso \
-  win10_vm
+  win10
 ```
 
 ---
